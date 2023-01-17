@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('Percurso NLCC para a área requisitante - Seplag/MG')
+st.title('Percurso NLCC para a área requisitante')
 
 st.subheader('Vamos começar:')
 
