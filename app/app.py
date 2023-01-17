@@ -118,7 +118,7 @@ if finalOrcamento or orcamento == 'Sim':
                             if finalEdital:
                                 st.write('')
                                 st.markdown('**Fase Externa**')
-                                st.text('Responsável: Esta etapa é conduzida pelo Agente de Contratação ou pela Comissão de Contratação. À área demandante cabe acompanhar.')
+                                st.write('Responsável: Esta etapa é conduzida pelo Agente de Contratação ou pela Comissão de Contratação. À área demandante cabe acompanhar.')
                                 x+=1
 
                                 st.write('{}. Acompanhe a publicação do Edital e responda ao Agente de Contratação, se forem necessárias diligências ou se forem interpostos recursos.'.format(x))
@@ -132,7 +132,7 @@ if finalOrcamento or orcamento == 'Sim':
                                 if homologacao:
                                     st.write('')
                                     st.markdown('**Fase de Contratação**')
-                                    st.text('Responsável: Esta etapa é conduzida pela Unidade de Contratação. À área demandante cabe acompanhar.')
+                                    st.write('Responsável: Esta etapa é conduzida pela Unidade de Contratação. À área demandante cabe acompanhar.')
                                     x+=1
                                     st.write('{}. Acompanhe a assinatura da Ata/Contrato.'.format(x))
 
